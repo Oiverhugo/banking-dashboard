@@ -1,0 +1,18 @@
+<div class="balance-container" style="text-align: center; padding: 20px; background-color: #0b2341; color: #ffffff; font-family: sans-serif;">
+  <span class="label" style="font-size: 14px; text-decoration: underline; opacity: 0.9; cursor: pointer;">Available Balance</span>
+  <h1 class="amount" style="font-size: 36px; margin: 8px 0; font-weight: 600; letter-spacing: -0.5px;">$1,000,000.00</h1>
+  <span class="details-link" style="font-size: 14px; opacity: 0.8;">View Balance Details</span>
+</div>
+
+<div class="transaction-row" style="display: flex; justify-content: space-between; align-items: center; padding: 16px; border-bottom: 1px solid #e0e0e0; font-family: sans-serif;">
+  <div style="display: flex; align-items: center; gap: 12px;">
+    <div class="icon" style="width: 36px; height: 36px; background-color: #4a773c; border-radius: 50%;"></div>
+    <div>
+      <div style="font-weight: bold; font-size: 14px; color: #333;">DEPOSIT@MOBILE</div>
+    </div>
+  </div>
+  <div style="text-align: right;">
+    <div style="color: #4a773c; font-weight: bold; font-size: 15px;">+$1,000,000.00</div>
+    <div style="color: #777; font-size: 12px;">$1,000,001.00</div>
+  </div>
+</div>
