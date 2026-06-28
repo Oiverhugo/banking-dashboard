@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Checking Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <header class="account-header">
+            <div class="header-top">
+                <i class="fa-solid fa-chevron-left back-btn"></i>
+                <h1>USAA CLASSIC CHECKING</h1>
+            </div>
+            <div class="balance-container">
+                <p class="balance-label">Available Balance</p>
+                <p class="balance-amount">$75,001.00</p>
+                <a href="#" class="details-link">View Balance Details</a>
+            </div>
+        </header>
+
+        <section class="actions-grid">
+            <div class="action-item">
+                <div class="icon-circle"><i class="fa-solid fa-building-columns"></i></div>
+                <span>My Account</span>
+            </div>
+            <div class="action-item">
+                <div class="icon-circle"><i class="fa-solid fa-credit-card"></i></div>
+                <span>My Card</span>
+            </div>
+            <div class="action-item">
+                <div class="icon-circle"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                <span>Move Money</span>
+            </div>
+            <div class="action-item">
+                <div class="icon-circle"><i class="fa-solid fa-right-from-bracket"></i></div>
+                <span>Transfer</span>
+            </div>
+            <div class="action-item">
+                <div class="icon-circle"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                <span>Pay Bills</span>
+            </div>
+            <div class="action-item">
+                <div class="icon-circle"><i class="fa-solid fa-qrcode"></i></div>
+                <span>Deposit</span>
+            </div>
+        </section>
+
+        <div class="info-row-btn">
+            <i class="fa-solid fa-clipboard-list btn-icon blue-icon"></i>
+            <span class="btn-text">VIEW SCHEDULED TRANSACTIONS</span>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h2><i class="fa-solid fa-money-bill-wave card-title-icon"></i> TRANSACTION ACTIVITY</h2>
+                <button class="search-btn">Search</button>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-left">
+                    <div class="help-circle"><i class="fa-solid fa-circle-question"></i></div>
+                    <div class="transaction-details">
+                        <p class="transaction-title">DEPOSIT@MOBILE <i class="fa-solid fa-tablet-screen-button mini-card-icon"></i></p>
+                    </div>
+                </div>
+                <div class="transaction-right">
+                    <p class="amount positive">+$75,000.00</p>
+                    <p class="running-balance">$75,001.00</p>
+                </div>
+                <i class="fa-solid fa-chevron-right arrow-right"></i>
+            </div>
+
+            <a href="#" class="card-footer-link">View All Transactions</a>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h2><i class="fa-solid fa-wallet card-title-icon"></i> JANUARY SPENDING SNAPSHOT</h2>
+            </div>
+            <div class="snapshot-content">
+                <div class="donut-chart">
+                    <span class="chart-value">$0</span>
+                </div>
+                <div class="snapshot-text">
+                    <h3>No spending data found for this month.</h3>
+                    <p>To track and view spending across all of your accounts, tap the link below.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
